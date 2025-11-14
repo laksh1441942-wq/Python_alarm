@@ -4,7 +4,7 @@ import pygame
 
 def alarm(alarm_time):
     print(f"your alarm has been set")
-    ring="fire_alarm.mp3"
+    ring="fire_alarm.mp3"   #add your sound file path here
     is_running=True
     while is_running:
         now=datetime.datetime.now().strftime("%H:%M:%S")
